@@ -1,7 +1,7 @@
 import React from "react";
 import { TypographyH1 } from "../ui/Typography";
 import { Button } from "../ui/button";
-import { ImageResize, RemoteImage } from "../shared/ImageResize";
+import { ImageResize, RemoteImage } from "./ImageResize";
 import { CircleCheck } from "lucide-react";
 import { Input } from "../ui/input";
 

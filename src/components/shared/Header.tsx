@@ -34,8 +34,8 @@ const Header = () => {
   const activeLink = (path: string) => path === pathname;
 
   return (
-    <header className="mb-5">
-      <nav className="container-xxl py-2 flex justify-between items-center">
+    <header className="container-xxl mb-5 bg-white rounded-full">
+      <nav className=" py-2 flex justify-between items-center">
         <Link href={"/"} className="flex items-center gap-1">
           <Image src={"/logo.svg"} alt="logo-image" width={70} height={70} />
           <span className="text-2xl font-bold">Commerce X</span>
