@@ -1,0 +1,60 @@
+// ================ || SCROLL BANNER || ================//
+.scroll-banner {
+  .sc-roll-section {
+    position: relative;
+    z-index: 9;
+    width: 110%;
+    left: -20px;
+    .slide-scroll {
+      .roll-box {
+        display: none;
+        position: relative;
+        -webkit-animation: slide-har 1000s linear infinite;
+        animation: slide-har 1000s linear infinite;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        .title {
+          white-space: nowrap;
+          line-height: 1;
+          font-size: 40px;
+          margin: 0;
+          font-weight: bold;
+
+          @include minMd {
+            font-size: 80px;
+          }
+
+          &.style-2 {
+            color: rgba(0, 0, 0, 0);
+            -webkit-text-stroke-color: #1f2226;
+            -webkit-text-stroke-width: 1px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes slide-har {
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slide-har-rever {
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}

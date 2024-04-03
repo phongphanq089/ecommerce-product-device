@@ -1,16 +1,26 @@
-import BannerHero from "@/components/products/BannerHero";
+import BannerHero from "@/components/shared/BannerHero";
 import React from "react";
+import DetailProduct from "@/components/ProductDetail";
+import SliderProduct from "@/components/shared/SliderProduct";
+import { ListProductItem } from "@/contents/data";
+import BreadcrumbnNextPage from "@/components/shared/Breadcrumb";
+import ProductWrapper from "@/components/layout/ProductWrapper";
 
 const ProductDetail = () => {
   return (
     <>
-      <BannerHero heading="Shop Detail" />
-      <div className="container-xxl mt-[-100px] bg-white py-10 lg:px-10 rounded-2xl  mb-14">
-        <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div>Image</div>
-          <div>Content</div>
-        </div>
-      </div>
+      <BannerHero heading="Detail Product" />
+      <ProductWrapper>
+        <DetailProduct />
+        <SliderProduct
+          ListProductItem={ListProductItem}
+          title="you make also like..."
+        />
+        <SliderProduct
+          ListProductItem={ListProductItem}
+          title="Related products"
+        />
+      </ProductWrapper>
     </>
   );
 };

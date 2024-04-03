@@ -1,10 +1,9 @@
 import React from "react";
 import ProductItem from "../shared/ProductItem";
-import SearchCategoried from "../shared/SearchCategoried";
-import ListCategoriedItem from "../shared/ListCategoriedItem";
 import { Button } from "../ui/button";
 import { ArrowRight } from "lucide-react";
 import PaginationProduct from "../shared/PaginationProduct";
+import { TypographyH1 } from "../ui/Typography";
 
 const ListProductItem = [
   {
@@ -67,9 +66,18 @@ const ListProductItem = [
 
 const Categoried = ({ allProduct }: { allProduct?: boolean }) => {
   return (
-    <div>
-      <SearchCategoried />
-      <ListCategoriedItem />
+    <div className="container-xxl mb-14">
+      {/* <SearchCategoried />
+      <ListCategoriedItem /> */}
+      <div className="my-6 py-6 flex items-center justify-between border-b-2 border-color_2">
+        <TypographyH1>Best Sellers</TypographyH1>
+        <ul className="flex items-center gap-4 text-2xl font-bold ">
+          <li className="active text-color_1">Smartphone</li>
+          <li>Laptops</li>
+          <li>Iwatch</li>
+          <li>Accessories</li>
+        </ul>
+      </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {ListProductItem?.map((item, index) => {
           return (

@@ -1,5 +1,5 @@
 import Categoried from "@/components/categoried";
-import BannerHero from "@/components/products/BannerHero";
+import BannerHero from "@/components/shared/BannerHero";
 import Subscribe from "@/components/shared/Subscribe";
 import React from "react";
 

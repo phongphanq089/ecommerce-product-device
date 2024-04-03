@@ -40,3 +40,62 @@ export const outStandingProducts = [
       "Ancient religions pyramids DNA manipulation flying vessels space time.",
   },
 ];
+
+export const ListProductItem = [
+  {
+    badge: "Apple Watch",
+    title: "HeadePhone",
+    description:
+      "orem ipsum dolor sit amet consectetur adipiscing elit tortor ornare mollis nisi odio sit tortor sem est et augue orci fames velit.",
+    coin: " $599",
+  },
+  {
+    badge: "Apple Watch",
+    title: "HeadePhone",
+    description:
+      "orem ipsum dolor sit amet consectetur adipiscing elit tortor ornare mollis nisi odio sit tortor sem est et augue orci fames velit.",
+    coin: " $599",
+  },
+  {
+    badge: "Apple Watch",
+    title: "HeadePhone",
+    description:
+      "orem ipsum dolor sit amet consectetur adipiscing elit tortor ornare mollis nisi odio sit tortor sem est et augue orci fames velit.",
+    coin: " $599",
+  },
+  {
+    badge: "Apple Watch",
+    title: "HeadePhone",
+    description:
+      "orem ipsum dolor sit amet consectetur adipiscing elit tortor ornare mollis nisi odio sit tortor sem est et augue orci fames velit.",
+    coin: " $599",
+  },
+  {
+    badge: "Apple Watch",
+    title: "HeadePhone",
+    description:
+      "orem ipsum dolor sit amet consectetur adipiscing elit tortor ornare mollis nisi odio sit tortor sem est et augue orci fames velit.",
+    coin: " $599",
+  },
+  {
+    badge: "Apple Watch",
+    title: "HeadePhone",
+    description:
+      "orem ipsum dolor sit amet consectetur adipiscing elit tortor ornare mollis nisi odio sit tortor sem est et augue orci fames velit.",
+    coin: " $599",
+  },
+  {
+    badge: "Apple Watch",
+    title: "HeadePhone",
+    description:
+      "orem ipsum dolor sit amet consectetur adipiscing elit tortor ornare mollis nisi odio sit tortor sem est et augue orci fames velit.",
+    coin: " $599",
+  },
+  {
+    badge: "Apple Watch",
+    title: "HeadePhone",
+    description:
+      "orem ipsum dolor sit amet consectetur adipiscing elit tortor ornare mollis nisi odio sit tortor sem est et augue orci fames velit.",
+    coin: " $599",
+  },
+];

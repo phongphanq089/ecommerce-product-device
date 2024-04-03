@@ -35,10 +35,12 @@ export function TypographyH3({ children, className }: typography) {
   );
 }
 
-export function TypographyH4() {
+export function TypographyH4({ children, className }: typography) {
   return (
-    <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
-      People stopped telling jokes
+    <h4
+      className={`scroll-m-20 text-xl font-semibold tracking-tight ${className}`}
+    >
+      {children}
     </h4>
   );
 }

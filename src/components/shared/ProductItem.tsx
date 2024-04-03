@@ -29,7 +29,7 @@ const ProductItem = ({
   return (
     <AnimatedCard delay={delay}>
       <CardContainer className="inter-var animate-out">
-        <CardBody className="relative bg-color_3 shadow-style group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto  h-auto rounded-3xl p-6 border  ">
+        <CardBody className="relative  bg-color_9 shadow-style group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto  h-auto rounded-3xl p-6 border  ">
           <Link href={link} className="relative">
             <CardItem translateZ="100" className="w-full">
               <ImageResize

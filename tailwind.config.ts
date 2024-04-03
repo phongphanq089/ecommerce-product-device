@@ -21,12 +21,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        color_1: "#ed1c24",
+        color_1: "#ff6162",
         color_2: "#e7e5e4",
         color_3: "#ffedd5",
         color_4: "#a1a1aa",
         color_5: "rgba(0,0,0,0.4)",
         color_6: "#020617",
+        color_7: "#ecfeff",
+        color_8: "#22d3ee",
+        color_9: "#f7fbfe",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

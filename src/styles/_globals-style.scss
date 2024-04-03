@@ -1,0 +1,17 @@
+.shadow-style {
+  box-shadow: 5px 5px 0 -1px #e7e5e4;
+  border: 1px solid #e7e5e4;
+}
+
+.slider-oustanding-product .swiper-pagination .swiper-pagination-bullet {
+  background-color: #000;
+  opacity: 1;
+  width: 15px;
+  height: 15px;
+}
+
+.slider-oustanding-product
+  .swiper-pagination
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #ffedd5;
+}

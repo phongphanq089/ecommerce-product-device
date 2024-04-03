@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
-import "./globals.css";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import Layout from "@/components/layout/Layout";
+import "swiper/scss";
+import "swiper/scss/navigation";
+import "swiper/scss/pagination";
+import "swiper/scss/free-mode";
+import "swiper/scss/thumbs";
+import "./globals.scss";
 
 const nunitor = Nunito({
   subsets: ["latin"],

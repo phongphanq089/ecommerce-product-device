@@ -34,7 +34,7 @@ const Header = () => {
   const activeLink = (path: string) => path === pathname;
 
   return (
-    <header className="container-xxl mb-5 bg-white rounded-full">
+    <header className="container-xxl  bg-white rounded-full">
       <nav className=" py-2 flex justify-between items-center">
         <Link href={"/"} className="flex items-center gap-1">
           <Image src={"/logo.svg"} alt="logo-image" width={70} height={70} />
